@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(209, 207, 207);
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(46, 46, 46);
+}
+
+/* cover css */ 
+.cover  {
+  position: relative;
+  height: 70vh;
+  margin: 0;
+  background-color: rgb(0, 0, 0); 
+  font-size: large;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover::before {
+  background-image: url(images/IMG_2456.jpeg);
+  background-size: cover;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+}
+
+.cover-title{
+  font-size: 6rem;
+}
+
+h1 , p {
+  isolation: isolate;
+  
+}
+
+
+/* main */
+
+.box {
+  padding: 20px 0;
+}
+
+/* footer css */ 
+
+
+
